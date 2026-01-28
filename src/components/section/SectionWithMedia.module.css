@@ -1,0 +1,90 @@
+/* SectionWithMedia.module.css */
+
+/* Main section container */
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+  width: 1519px;
+  height: 628px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Text content container */
+.textContent {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 69px;
+  margin-top: 70px;
+  margin-bottom: 0;
+
+  gap: 27px;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header styling */
+.header {
+  /* width: 90px;*/
+  /* height: 125px; */
+  /* UI Properties */
+  text-align: left;
+  margin: 0;
+  padding-left: 20px;
+  font: normal normal 600 65px/70px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+/* Paragraph styling */
+.paragraph {
+  padding-left: 20px;
+  /* width: 702px; */
+  line-height: 1.6;
+  text-align: left;
+  font: normal normal normal 26px/34px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.coloured {
+  font: normal normal 600 65px/70px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #8967b3;
+}
+
+/* Button styling */
+.button {
+  width: 410px;
+  height: 80px;
+  margin-bottom: 0;
+  margin-left: 26px;
+  /* UI Properties */
+  align-self: flex-start;
+  text-align: center;
+  font: normal normal 600 28px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  /* UI Properties */
+  background: #8967b3 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 20px;
+  opacity: 1;
+}
+
+/* .button:hover {
+  background-color: #0056b3;
+} */
+
+/* Media content styling */
+.mediaContent {
+  flex-shrink: 0;
+}

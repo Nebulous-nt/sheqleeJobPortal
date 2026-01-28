@@ -1,0 +1,218 @@
+/* css styles for clients component */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.clientCard {
+  display: flex;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* max-width: 800px; */
+  margin: auto;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.teleClientCard {
+  display: flex;
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* max-width: 800px; */
+  margin: auto;
+  text-align: right;
+  margin-left: 380px;
+}
+
+.teleClientCard div h2 {
+  text-align: right;
+}
+
+.teleClientCard div p {
+  width: 670px;
+  height: 100px;
+  text-align: right;
+}
+
+.leftPanel {
+  background: #000000;
+  color: white;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  font: normal normal 500 60px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: center;
+}
+
+.rightPanel {
+  /* display: flex;
+  flex-direction: column; */
+
+  width: 665px;
+  padding: 30px;
+  flex-grow: 0;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.subtitle {
+  text-align: left;
+  font: normal normal 500 37px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: left;
+  width: 600px;
+  font: normal normal normal 21px/30px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.registerAsEmployerButton {
+  width: 400px;
+  height: 80px;
+  align-self: center;
+  border: none;
+  font: normal normal 600 27px/40px Kantumruy Pro;
+  text-align: center;
+
+  /* UI Properties */
+  background: #8967b3 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 10px 20px;
+
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+/* css style for client's header */
+
+.headerContainer {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  font: normal normal 600 48px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.subHeader {
+  font: normal normal normal 27px/36px Kantumruy Pro;
+  letter-spacing: 0px;
+  width: 750px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 60px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.loginButton {
+  width: 130px;
+  height: 70px;
+  font: normal normal 500 27px/40px Kantumruy Pro;
+  /* UI Properties */
+  border: 5px solid #8967b3;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.registerButton {
+  width: 380px;
+  height: 70px;
+  border: none;
+  font: normal normal 500 27px/40px Kantumruy Pro;
+
+  /* UI Properties */
+  background: #8967b3 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  border-radius: 15px;
+  opacity: 1;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #000;
+  color: white;
+}
+
+.registerButton:hover {
+  background-color: #6a3ecf;
+}
+
+/* css style for trusted by */
+
+.iconsContainer {
+  text-align: center;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  padding: 10px 20px;
+  margin-top: 70px;
+}
+
+.iconsHeader {
+  font: normal normal 500 45px/42px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 30px;
+  padding-top: 0px;
+}
+
+.iconGroup {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  /* filter: brightness(0) invert(0) Ensures visibility on all backgrounds */
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}

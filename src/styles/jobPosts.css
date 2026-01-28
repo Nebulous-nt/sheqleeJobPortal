@@ -1,0 +1,329 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 38px;
+  margin-top: 20px;
+  padding-left: 70px;
+}
+
+/* Skeleton Loader Styles */
+.skeleton-card {
+  width: 428px;
+  height: 325px;
+  background: #f7f7f7;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-header,
+.skeleton-content,
+.skeleton-info {
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+}
+
+.skeleton-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 27px;
+}
+
+.skeleton-title {
+  width: 325px;
+  height: 30px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+}
+
+.skeleton-image {
+  width: 40px;
+  height: 40px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+}
+
+.skeleton-content {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  margin-left: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
+.skeleton-paragraph {
+  width: 90%;
+  height: 15px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-subparagraph {
+  width: 60%;
+  height: 15px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.skeleton-info {
+  position: absolute;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 9px;
+  column-gap: 13px;
+  bottom: 20px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.skeleton-postDate {
+  width: 100px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-position {
+  width: 100px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-time {
+  width: 100px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-experience {
+  width: 100px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-salary {
+  width: 100px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+.skeleton-apply {
+  width: 80px;
+  height: 27px;
+  /* UI Properties */
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+/* Shimmer Effect */
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.card {
+  position: relative;
+
+  width: 428px;
+  height: 325px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  margin-top: 10;
+  opacity: 1;
+}
+.card-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 27px;
+}
+
+.job-title {
+  text-align: left;
+  font: normal normal 500 28px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  margin: 0;
+  color: #000000;
+  opacity: 1;
+}
+
+.job-image {
+  width: 28px;
+  height: 31px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.info {
+  position: absolute;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 9px;
+  column-gap: 13px;
+  bottom: 20px;
+  text-align: left;
+  font: normal normal normal 20px/34px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000;
+  opacity: 1;
+}
+
+.info div {
+  font: normal normal normal 14px/34px Kantumruy Pro;
+  letter-spacing: 0px;
+  height: 30px;
+  color: #000000;
+  opacity: 1;
+}
+
+.info-postDate {
+  display: flex;
+
+  gap: 10px;
+  align-items: center;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  font-size: small;
+  padding: 0 8px;
+}
+.info-jopPostion {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: small;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 0 8px;
+}
+.info-time {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 12px;
+  font-size: small;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 0 8px;
+}
+.info-exprience {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: small;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 0 8px;
+}
+.info-salary {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: small;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  padding: 0 8px;
+}
+
+img {
+  height: 18px;
+  width: 18px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  text-align: left;
+  font: normal normal normal 20px/27px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.apply_btn {
+  width: 85px;
+  height: 30px;
+  border: none;
+  background: #8967b3 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal medium 18px/34px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+/* jobs Pagination css style */
+
+.jobs-pagination {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding-top: 32px;
+}
+.jobs-header {
+  text-align: left;
+  padding-left: 76px;
+  font: normal normal 500 40px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.jobs-pagination-arrow {
+  display: flex;
+  margin-right: 42px;
+  margin-top: 10px;
+  padding: 0px;
+  /* width: 200px; */
+  /* flex-wrap: nowrap; */
+}
+p {
+  /* border-bottom: 5px solid #8967b3; */
+  font: normal normal 500 18px/40px Kantumruy Pro;
+  padding: 0;
+}
+
+.moreJobs {
+  border-bottom: 5px solid #8967b3;
+  padding-bottom: 7px;
+}
+
+.jobs-arow-icon {
+  /* Layout Properties */
+
+  width: 13px;
+  height: 20px;
+  padding: 29px;
+  margin-bottom: 25px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  opacity: 1;
+  align-self: center;
+}

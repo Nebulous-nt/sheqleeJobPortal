@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+  .parent-container {
+    margin-bottom: 0;
+  }
+  .tag-main-container {
+    gap: 10px;
+  }
+  /* .tags-pagination-arrow {
+        margin-top: 100px;
+      } */
+}

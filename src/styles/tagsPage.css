@@ -1,0 +1,38 @@
+/* css style for tags header */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.tagsImage {
+  width: 80px;
+  height: 80px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.tagsHeader {
+  text-align: left;
+  font: normal normal 600 48px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.tagsDescription {
+  width: 650px;
+  height: 85px;
+  text-align: center;
+  font: normal normal normal 28px/35px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}

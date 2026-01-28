@@ -1,0 +1,53 @@
+.sectionwithimage {
+  margin-top: 40px;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 33px; /* Space between elements */
+  padding: 10px;
+  padding-left: 30px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.section_image {
+  width: 55px; /* Set width of the image */
+  height: 55px; /* Maintain aspect ratio */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  object-fit: cover; /* Ensure the image fits nicely */
+}
+
+.section_header {
+  /* UI Properties */
+  text-align: right;
+  font: normal normal 500 28px/42px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.section_button {
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  height: 70px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 25px/29px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #8967b3 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.section_button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+@media (max-width: 600px) {
+  .sectionwithimage {
+    flex-direction: column;
+  }
+}

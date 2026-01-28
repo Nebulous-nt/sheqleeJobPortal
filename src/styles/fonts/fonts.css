@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Recoleta";
+  src: url("./Recoleta-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Importing Kantumruy Pro Fonts */
+
+/* Regular (Weight 400) */
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("./KantumruyPro-Regular.ttf") format("truetype"); /* Replace with actual path */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium (Weight 500) */
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("./KantumruyPro-Medium.ttf") format("truetype"); /* Replace with actual path */
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* SemiBold (Weight 600) */
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("./KantumruyPro-SemiBold.ttf") format("truetype"); /* Replace with actual path */
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Light (Weight 300) */
+@font-face {
+  font-family: "Kantumruy Pro";
+  src: url("./KantumruyPro-Light.ttf") format("truetype"); /* Replace with actual path */
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Usage example for global styles */
+body {
+  font-family: "Kantumruy Pro", sans-serif; /* Default font family */
+}

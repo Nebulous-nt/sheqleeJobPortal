@@ -1,0 +1,154 @@
+/* Navbar container styling */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  left: 0px;
+  width: 1519px;
+  height: 141px;
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+  padding: 17px 80px;
+}
+
+/* Image styling */
+.logo {
+  width: 60px;
+  height: 60px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Header text styling */
+.headerText {
+  top: 62px;
+  left: 211px;
+  width: 144px;
+  height: 54px;
+  text-align: left;
+  font: normal normal bold 33px/50px Recoleta;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+/* Links list styling */
+.links {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.links li {
+  display: inline-flex; /* Keep inline behavior */
+  align-items: center; /* Center the SVG vertically */
+  justify-content: center;
+}
+
+.links li a {
+  display: inline-block; /* Ensures padding affects the entire link area */
+  text-decoration: none;
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: 500; /* Adjust font weight */
+  font-size: 20px; /* Adjust font size */
+  text-align: left;
+  font: normal normal Medium 25px/29px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  /* padding: 10px 15px; Adjust padding for width and height */
+  /* border-radius: 5px; Add rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effects */
+}
+
+/* Individual link styling */
+/* .links a:hover, */
+.links a.active {
+  text-decoration: underline; /* Adds the underline */
+  text-underline-offset: 55px; /* Adjusts the distance of the underline from the text */
+  text-decoration-color: #8967b3; /* Change the color of the underline */
+  text-decoration-thickness: 7px;
+}
+/* border-bottom: 7px solid #8967b3;
+  padding-bottom: 10px; */
+
+.navArrow {
+  width: 10px;
+  height: 6px;
+  margin-left: 7px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  /* border: 1px solid #000000; */
+  opacity: 1;
+}
+
+/* Buttons container styling */
+.rightNav {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+/* Login button styling */
+.loginButton {
+  margin-right: 50px;
+  background-color: #f7f7f7;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 110px;
+  height: 57px;
+  text-align: center;
+  font: normal normal 600 20px/29px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  border: 4px solid #8967b3;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.loginButton:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+}
+
+.buttons {
+  margin-right: 50px;
+}
+
+/* Sign Up button styling */
+.signupButton {
+  margin-left: 15px;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  height: 57px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 20px/29px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #8967b3 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.signupButton:hover {
+  background-color: #4a3cde;
+}
+
+@media (max-width: 600px) {
+}

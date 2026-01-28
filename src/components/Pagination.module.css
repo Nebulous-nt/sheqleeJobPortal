@@ -1,0 +1,90 @@
+.paginationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  padding: 27px 27px;
+}
+
+.pageNumbers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pageButton {
+  width: 40px;
+  height: 40px;
+  /* UI Properties */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 15px;
+  /* background-color: #e0e0e0; */
+  cursor: pointer;
+  text-align: center;
+  font: normal normal 500 20px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  opacity: 0.99;
+  color: #000000;
+}
+
+.pageButton:hover {
+  background-color: #d0d0d0;
+}
+
+.activePage {
+  background-color: #000;
+  color: #fff;
+}
+
+.ellipsis {
+  font-size: 30px;
+  color: #000;
+}
+
+.navigationButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.arrowButton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrowRightButton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 15px;
+  background: #8967b3 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.navigationButtons img {
+  width: 15px;
+  height: 15px;
+}
+
+.arrowButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.arrowButton:hover:enabled {
+  background-color: #d0d0d0;
+}

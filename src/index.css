@@ -1,0 +1,13 @@
+body {
+  width: auto; /* width: 1519.2px */
+  margin: 0;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

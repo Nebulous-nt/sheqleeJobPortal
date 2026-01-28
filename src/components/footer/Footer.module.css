@@ -1,0 +1,164 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 10px;
+  padding-bottom: 0;
+  width: auto;
+  height: 400px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #fff;
+}
+
+.addressAndPhoto {
+  display: flex;
+  row-gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font: normal normal 300 18px/28px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding-left: 30px;
+  margin-left: 80px;
+  margin-right: 90px;
+  margin-top: 55px;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer_logo {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.footer_header {
+  border-bottom: 2px solid #fff;
+  width: 55%;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  font: normal normal 500 28px/41px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  text-align: left;
+}
+
+.footer_address {
+  margin: 0;
+  font: normal normal 500 18px/28px Kantumruy Pro;
+}
+
+.footer_text {
+  margin: 0;
+  width: 174px;
+  font: normal normal 300 16px/28px Kantumruy Pro;
+  color: #b7b7b7;
+}
+
+.footer_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.footer_list li {
+  margin: 5px 0;
+}
+
+.footer_list a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font: normal normal 300 20px/29px Kantumruy Pro;
+  color: #b7b7b7;
+  letter-spacing: 0px;
+}
+
+.footer_list a:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+.footer_bottom {
+  grid-column: 1 / 6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 20px; */
+  /* border-top: 1px solid #444; */
+  padding-top: 0px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.footer_copyright {
+  padding: 15px;
+  text-align: left;
+  font: normal normal 300 16px/10px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #b7b7b7;
+  opacity: 1;
+}
+
+.footer_social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute; /* Positions the entire social media section relative to the footer */
+  right: 10px; /* Pushes it to the right bottom corner */
+  bottom: 10px; /* Places it above the bottom edge of the footer */
+  margin-right: 26px;
+  text-align: left;
+}
+
+.bottom_paragraph {
+  text-align: left;
+  font: normal normal 300 16px/23px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #b7b7b7;
+  opacity: 1;
+}
+
+.footer_icons {
+  display: flex; /* Aligns the icons in a horizontal row */
+  gap: 20px; /* Adds space between icons */
+  margin-top: 3px;
+  border: none;
+}
+
+/* .footer_icons svg {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s ease; /* Smooth hover transition 
+} */
+
+.footer_icons img:hover {
+  color: #007bff; /* Changes icon color on hover */
+}
+.socialMediaIcon {
+  /* Layout Properties */
+
+  width: 24px;
+  height: 24px;
+  margin-bottom: 15px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  align-self: center;
+}

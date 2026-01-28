@@ -1,0 +1,129 @@
+/* css style for categories header */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.imageIcon {
+  width: 100px;
+  height: 100px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: left;
+  font: normal normal 600 48px/40px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 5px;
+}
+
+.description {
+  width: 700px;
+  height: 85px;
+  text-align: center;
+  font: normal normal normal 28px/35px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+/* css style for categories card */
+
+.categories-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 92px;
+  row-gap: 30px;
+  /* width: 1519; */
+  padding-left: 76px;
+  margin: 45px;
+  margin-bottom: 85px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.categories-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.black-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 111px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 20px 0px 0px 20px;
+  opacity: 1;
+  padding-bottom: 5px;
+}
+
+.black-div img {
+  width: 47px;
+  height: 47px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.category-card {
+  /* Add some spacing between rows */
+  display: flex;
+  flex-direction: column; /* Ensures the title and tags-info stack vertically */
+  justify-content: space-evenly; /* Aligns content at the top */
+  row-gap: 0px; /* Adds spacing between title and tags-info */
+  width: 435px;
+  height: 116px;
+  /* padding: 10px; */
+  /* margin-bottom: 40px; */
+  /* UI Properties */
+  background: #f7f7f7 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  opacity: 1;
+  padding-left: 22px;
+  margin: 0px;
+}
+
+.categories-info {
+  display: flex;
+  align-items: center; /* Aligns child elements vertically */
+  justify-content: flex-start; /* Aligns child elements to the left */
+  column-gap: 13px; /* Adds horizontal spacing between h5, image, and h5 */
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+}
+.categories-info h5 {
+  font: normal normal normal 21px/40px Kantumruy Pro; /* Adjust font size and line-height */
+  margin: 0; /* Removes default margin */
+}
+
+.categories-title {
+  font: normal normal 500 24px/40px Kantumruy Pro;
+  margin: 0;
+}
+.categories-dot {
+  /* top: 1253px;
+      left: 867px; */
+  width: 6px;
+  height: 6px;
+  /* UI Properties */
+  /* background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}

@@ -1,0 +1,116 @@
+.job-postings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font: normal normal normal 35px/44px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.postParagraph {
+  width: 800px;
+  height: 80px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 28px/35px Kantumruy Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.search-bar {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.search-bar input {
+  width: 610px;
+  height: 65px;
+  margin-right: 20px;
+  padding-left: 60px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 23px/40px Kantumruy Pro;
+  color: #444444;
+  letter-spacing: 0px;
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  border: none;
+  opacity: 1;
+  background-image: url("/public/img/search_icon.svg"); /* Path to your icon */
+  background-repeat: no-repeat;
+  background-position: left 20px center; /* Positioning the icon */
+  background-size: 25px;
+}
+
+.search-input {
+  font: normal normal normal 23px/40px Kantumruy Pro;
+  color: #444444;
+}
+.input {
+  color: #000000;
+}
+
+.applyFilter {
+  width: 250px;
+  height: 65px;
+  /* UI Properties */
+  font: normal normal 600 23px/40px Kantumruy Pro;
+  color: #ffffff;
+  background: #8967b3 0% 0% no-repeat padding-box;
+  border: none;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.filters {
+  margin: 17px;
+  margin-left: 35px;
+}
+.categoryfilter {
+  border: none;
+  width: 400px;
+  height: 65px;
+  color: #444444;
+  font: normal normal normal 23px/40px Kantumruy Pro;
+  padding: 10px 50px 10px 10px;
+}
+
+.typefilter {
+  border: none;
+  width: 250px;
+  height: 65px;
+  color: #444444;
+  font: normal normal normal 23px/40px Kantumruy Pro;
+}
+
+.levelfilter {
+  border: none;
+  width: 250px;
+  height: 65px;
+  color: #444444;
+  font: normal normal normal 23px/40px Kantumruy Pro;
+}
+
+.filters select {
+  background: #dfdfdf 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  margin-right: 20px;
+  appearance: none;
+  background-image: url("/public/img/drop_down.svg"); /* Path to your icon */
+  background-image: url("/public/img/drop_down.svg"); /* Path to your icon */
+  background-repeat: no-repeat;
+  background-position: right 20px center; /* Position the icon */
+  background-size: 15px; /* Size of your custom icon */
+  padding: 0px 20px 0px 20px; /* Space for the icon */
+}
+
+.job-list {
+  margin-top: 60px;
+  padding-top: 10px;
+}

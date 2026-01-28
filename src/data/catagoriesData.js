@@ -1,0 +1,88 @@
+const catagories = [
+  {
+    Id: 1,
+    icon: "/img/web.svg",
+    TagsTitle: "Web Frontend",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 2,
+    icon: "/img/devops.svg",
+    TagsTitle: "Backend & Database",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 3,
+    icon: "/img/product_design.svg",
+    TagsTitle: "UI/UX & Product Design",
+    jobs: [{ number: 78, job: "jobs" }],
+    subscribes: [{ number: 1045, subscribe: "subscribers" }],
+  },
+  {
+    Id: 4,
+    icon: "/img/python.svg",
+    TagsTitle: "Machine Learning",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 5,
+    icon: "/img/product_design.svg",
+    TagsTitle: "Mobile Application",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 6,
+    icon: "/img/python.svg",
+    TagsTitle: "Web Full-Stack",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 7,
+    icon: "/img/quality_assurance.svg",
+    TagsTitle: "QA & DevOps Engineer",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 8,
+    icon: "/img/ui_ux_design.svg",
+    TagsTitle: "Security",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 9,
+    icon: "/img/ui_ux_design.svg",
+    TagsTitle: "UI/UX & Product Design",
+    jobs: [{ number: 78, job: "jobs" }],
+    subscribes: [{ number: 1045, subscribe: "subscribers" }],
+  },
+  {
+    Id: 10,
+    icon: "/img/python.svg",
+    TagsTitle: "Machine Learning",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 11,
+    icon: "/img/quality_assurance.svg",
+    TagsTitle: "QA & DevOps Engineer",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+  {
+    Id: 12,
+    icon: "/img/product_design.svg",
+    TagsTitle: "Security",
+    jobs: [{ number: 140, job: "jobs" }],
+    subscribes: [{ number: 2173, subscribe: "subscribers" }],
+  },
+];
+
+export default catagories;
